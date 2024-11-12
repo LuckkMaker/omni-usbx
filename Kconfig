@@ -1,0 +1,162 @@
+menu "USBX Configuration"
+config UX_DEVICE_CORE_STACK
+    bool "USBX Device Core Stack"
+    default n
+
+# config UX_DEVICE_CONTROLLER
+#     bool "USBX Device Controller"
+#     default n
+
+config UX_HOST_CORE_STACK
+    bool "USBX Host Core Stack"
+    default n
+
+config UX_HOST_CONTROLLER
+    bool "USBX Host Controller"
+    default n
+
+config UX_NETWORK_DRIVER
+    bool "USBX Network Driver"
+    default n
+
+config UX_PICTBRIDGE
+    bool "USBX PictBridge"
+    default n
+
+menu "USBX Device Classes"
+
+config UX_DEVICE_CLASS_HID_CORE
+    bool "USBX Device Class HID Core"
+    default n
+
+config UX_DEVICE_CLASS_HID_MOUSE
+    bool "USBX Device Class HID Mouse"
+    default n
+
+config UX_DEVICE_CLASS_HID_KEYBOARD
+    bool "USBX Device Class HID Keyboard"
+    default n
+
+config UX_DEVICE_CLASS_HID_CUSTOM
+    bool "USBX Device Class HID Custom"
+    default n
+
+config UX_DEVICE_CLASS_CDC_ACM
+    bool "USBX Device Class CDC ACM"
+    default n
+
+config UX_DEVICE_CLASS_CDC_ECM
+    bool "USBX Device Class CDC ECM"
+    default n
+
+config UX_DEVICE_CLASS_STORAGE
+    bool "USBX Device Class Storage"
+    default n
+
+config UX_DEVICE_CLASS_DFU
+    bool "USBX Device Class DFU"
+    default n
+
+config UX_DEVICE_CLASS_AUDIO_CORE
+    bool "USBX Device Class Audio Core"
+    default n
+
+config UX_DEVICE_CLASS_AUDIO_PLAYBACK
+    bool "USBX Device Class Audio Playback"
+    default n
+
+config UX_DEVICE_CLASS_AUDIO_RECORDING
+    bool "USBX Device Class Audio Recording"
+    default n
+
+config UX_DEVICE_CLASS_PIMA
+    bool "USBX Device Class PIMA"
+    default n
+
+config UX_DEVICE_CLASS_RNDIS
+    bool "USBX Device Class RNDIS"
+    default n
+
+config UX_DEVICE_CLASS_VIDEO
+    bool "USBX Device Class Video"
+    default n
+
+config UX_DEVICE_CLASS_CCID
+    bool "USBX Device Class CCID"
+    default n
+
+config UX_DEVICE_CLASS_PRINTER
+    bool "USBX Device Class Printer"
+    default n
+
+endmenu # USBX Device Classes
+
+menu "USBX Host Classes"
+
+config UX_HOST_CLASS_HID_CORE
+    bool "USBX Host Class HID Core"
+    default n
+
+config UX_HOST_CLASS_HID_MOUSE
+    bool "USBX Host Class HID Mouse"
+    default n
+
+config UX_HOST_CLASS_HID_KEYBOARD
+    bool "USBX Host Class HID Keyboard"
+    default n
+
+config UX_HOST_CLASS_HID_RCU
+    bool "USBX Host Class HID RCU"
+    default n
+
+config UX_HOST_CLASS_STORAGE
+    bool "USBX Host Class Storage"
+    default n
+
+config UX_HOST_CLASS_HUB
+    bool "USBX Host Class Hub"
+    default n
+
+config UX_HOST_CLASS_CDC_ACM
+    bool "USBX Host Class CDC ACM"
+    default n
+
+config UX_HOST_CLASS_CDC_ECM
+    bool "USBX Host Class CDC ECM"
+    default n
+
+config UX_HOST_CLASS_AUDIO
+    bool "USBX Host Class Audio"
+    default n
+
+config UX_HOST_CLASS_VIDEO
+    bool "USBX Host Class Video"
+    default n
+
+config UX_HOST_CLASS_PRINTER
+    bool "USBX Host Class Printer"
+    default n
+
+config UX_HOST_CLASS_GSER
+    bool "USBX Host Class GSER"
+    default n
+
+config UX_HOST_CLASS_ASIX
+    bool "USBX Host Class ASIX"
+    default n
+
+config UX_HOST_CLASS_PIMA
+    bool "USBX Host Class PIMA"
+    default n
+
+config UX_HOST_CLASS_PROLIFIC
+    bool "USBX Host Class Prolific"
+    default n
+
+config UX_HOST_CLASS_SWAR
+    bool "USBX Host Class SWAR"
+    default n
+
+endmenu # USBX Host Classes
+
+endmenu # USBX Configuration
