@@ -3,9 +3,9 @@ config UX_DEVICE_CORE_STACK
     bool "USBX Device Core Stack"
     default n
 
-# config UX_DEVICE_CONTROLLER
-#     bool "USBX Device Controller"
-#     default n
+config UX_DEVICE_CONTROLLER
+    bool "USBX Device Controller"
+    default n
 
 config UX_HOST_CORE_STACK
     bool "USBX Host Core Stack"
